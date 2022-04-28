@@ -1,0 +1,16 @@
+{
+  "castaways": [
+    {
+      "id": 1,
+      "name": "Tony Vlachos",
+      "image": "https://www.truedorktimes.com/survivor/cast/images/tony-vlachos.jpg",
+      "seasons": [28, 31, 40]
+    },
+    {
+      "id": 2,
+      "name": "Parvati Shallow",
+      "image": "https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg",
+      "seasons": [13, 16, 20, 40]
+    }
+  ]
+}
