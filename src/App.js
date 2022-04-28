@@ -1,5 +1,8 @@
 import React, {useEffect, useState} from "react";
-import './App.css';
+import { Route, Switch } from "react-router-dom";
+import Home from "./Home"
+import CastawayList from "./CastawayList";
+import Nav from "./Nav";
 
 function App() {
   
@@ -12,14 +15,17 @@ function App() {
   }, [])
   
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         Welcome to... Survivor!
-        </p>
-        {castaways.map((castaway) => <div key={castaway.id}><h3>{castaway.name}</h3><img src={castaway.image} /></div>)}
-      </header>
-    </div>
+    <>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route>
+          <CastawayList path="/castaways" castaways={castaways} />
+        </Route>
+      </Switch>
+    </>
   );
 }
 
