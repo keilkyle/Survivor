@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Logo and Nav */
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  height: 10vh;
+  background-color: #ccc;
+  width: 100vw;
+  text-align: center;
+  padding: 2vh 0 0 0;
+}
+
+.nav a {
+  height: 5vh;
+  width: 20vw;
+  display: inline-block;
+  margin: 0 5vw 0 5vw;
+  background-color: blue;
+  color: #fff;
+  padding: 3vh 0 0 0;
+}
+
+/* Adder */
+
+.newCastawayForm {
+  float:left;
+  width: 40vw;
+  margin: 0 0 0 10vw;
+  border: 1px solid red;
+  height: 70vh;
+}
+
+.preview {
+  float: left;
+  width: 40vw;
+  height: 70vh;
+  border: 1px solid red;
+}

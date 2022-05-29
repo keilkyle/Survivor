@@ -23,6 +23,7 @@ function App() {
   
   return (
     <>
+      <div className="logo"><h1>Survivor Lister</h1></div>
       <Nav />
       <Switch>
         <Route exact path="/">
