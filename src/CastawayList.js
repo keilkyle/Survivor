@@ -1,9 +1,10 @@
 import React from "react";
+import Castaway from "./Castaway";
 
 function CastawayList({castaways}) {
     return (
         <div>
-            {castaways.map((castaway) => <div key={castaway.id}><h3>{castaway.name}</h3><img src={castaway.image} /></div>)}
+            {castaways.map((castaway) => <Castaway key={castaway.id} castaway={castaway} />)}
         </div>
     )
 }
