@@ -24,7 +24,7 @@ I found a database of all Survivor castaways including their pictures at TrueDor
 - the app automatically prepends the proper URL prefix, "https://www.truedorktimes.com/survivor/cast/images/'
 - the app automatically appends the profer URL suffix, ".jpg"
 - the app displays a preview of the image, so the user can tell when they've entered a correct name
-- the app displays the full image url that is to be entered into the database
+- the app displays the full image url that will display in the list
 
 Users cannot add custom URLs given the prefix/suffix -- this makes sure that only real Survivor players are added to the app.
 

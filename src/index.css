@@ -45,7 +45,6 @@ code {
 .newCastawayForm {
   float:left;
   width: 40vw;
-  border: 1px solid red;
   height: 70vh;
 }
 
@@ -67,7 +66,6 @@ code {
   float: left;
   width: 40vw;
   height: 70vh;
-  border: 1px solid red;
 }
 
 .helper {

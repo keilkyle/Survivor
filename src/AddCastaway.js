@@ -46,12 +46,16 @@ function AddCastaway({castawayAdder}) {
             <div className="newCastawayForm">
             <h2>Add Castaway to Database</h2>
             <form onSubmit={submitHandler}>
+                <p class="label">Name:</p>
                 <input type="text" name="name" placeholder="Jeff Probst" value={newCastObj.name} onChange={nameHandler}/>
+                
+                <p class="label">Image:</p>
                 <input type="text" name="image" placeholder="parvati-shallow" value={newCastObj.image} onChange={imageHandler}/>
+                <button onClick={tryDefault}>Try Default Image URL</button>
                 <p className="helper">Full URL: https://www.truedorktimes.com/survivor/cast/images/{newCastObj.image}.jpg</p>
+            
                 <button type="submit">Add Castaway</button>
             </form>
-            <button onClick={tryDefault}>Try Default Image URL</button>
 
             </div>
 

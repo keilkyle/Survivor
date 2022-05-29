@@ -28,7 +28,7 @@ function App() {
       <div className="content">
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home castaways={castaways}/>
           </Route>
           <Route path="/castaways">
             <CastawayList castaways={castaways} />
