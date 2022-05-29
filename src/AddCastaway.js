@@ -51,12 +51,12 @@ function AddCastaway({castawayAdder}) {
                 
                 <p class="label">Image:</p>
                 <input type="text" name="image" placeholder="parvati-shallow" value={newCastObj.image} onChange={imageHandler}/>
-                <button onClick={tryDefault}>Try Default Image URL</button>
                 <p className="helper">Full URL: https://www.truedorktimes.com/survivor/cast/images/{newCastObj.image}.jpg</p>
             
                 <button type="submit">Add Castaway</button>
             </form>
-
+            <button onClick={tryDefault}>Try Default Image URL</button>
+                
             </div>
 
         
