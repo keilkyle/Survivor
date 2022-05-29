@@ -36,11 +36,9 @@ function AddCastaway({castawayAdder}) {
     }
 
     function tryDefault() {
-        const urlAttempt = newCastObj.name
-        // manipulate string to have dashes instead of spaces
-        // append to https://www.truedorktimes.com/survivor/cast/images/
-        // add .jpg
-        // change URL in obj
+        const urlAttempt = newCastObj.name.split(" ").join("-").toLowerCase()
+        const newObj = {...newCastObj, image: urlAttempt}
+        newCastChange(newObj)
     }
 
     return (
