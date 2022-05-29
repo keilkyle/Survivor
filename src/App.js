@@ -25,17 +25,19 @@ function App() {
     <>
       <div className="logo"><h1>Survivor Lister</h1></div>
       <Nav />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/castaways">
-          <CastawayList castaways={castaways} />
-        </Route>
-        <Route path="/add">
-          <AddCastaway castawayAdder={castawayAdder} />
-        </Route>
-      </Switch>
+      <div className="content">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/castaways">
+            <CastawayList castaways={castaways} />
+          </Route>
+          <Route path="/add">
+            <AddCastaway castawayAdder={castawayAdder} />
+          </Route>
+        </Switch>
+      </div>
     </>
   );
 }

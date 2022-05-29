@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.content{
+  padding: 0 5vw 0 5vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -41,9 +45,22 @@ code {
 .newCastawayForm {
   float:left;
   width: 40vw;
-  margin: 0 0 0 10vw;
   border: 1px solid red;
   height: 70vh;
+}
+
+.newCastawayForm input {
+  display: block;
+  width: 30vw;
+  margin: 2vh 0 0 0;
+  height: 2em;
+  font-size: 0.75em;
+}
+
+.newCastawayForm button {
+  display: block;
+  width: 15vw;
+  margin: 2vh 0 0 0;
 }
 
 .preview {
@@ -51,4 +68,12 @@ code {
   width: 40vw;
   height: 70vh;
   border: 1px solid red;
+}
+
+/* CastawayCard */
+
+.castawayCard {
+  display:inline-block;
+  width: 15vw;
+  min-height: 5vh;
 }

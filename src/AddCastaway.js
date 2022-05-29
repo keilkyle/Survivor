@@ -35,21 +35,33 @@ function AddCastaway({castawayAdder}) {
 
     }
 
+    function tryDefault() {
+        // manipulate string to have dashes instead of spaces
+        // append to https://www.truedorktimes.com/survivor/cast/images/
+        // add .jpg
+        // change URL in obj
+    }
+
     return (
-        <div>
+        <>
             <div className="newCastawayForm">
-            <h2>New Castaway</h2>
+            <h2>Add Castaway to Database</h2>
             <form onSubmit={submitHandler}>
                 <input type="text" name="name" placeholder="Jeff Probst" value={newCastObj.name} onChange={nameHandler}/>
                 <input type="text" name="image" placeholder="https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg" value={newCastObj.image} onChange={imageHandler}/>
                 <button type="submit">Add Castaway</button>
             </form>
+
+            <button onClick={tryDefault}>Try Default Image URL</button>
+            
             </div>
+
         
             <div className="preview">
+                <h2>Preview New Castaway</h2>
                 {<Castaway castaway={newCastObj} />}                
             </div>
-        </div>
+        </>
     )
 }
 
