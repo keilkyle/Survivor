@@ -3,33 +3,17 @@
     {
       "id": 1,
       "name": "Tony Vlachos",
-      "image": "https://www.truedorktimes.com/survivor/cast/images/tony-vlachos.jpg",
-      "seasons": [
-        28,
-        31,
-        40
-      ]
+      "image": "tony-vlachos"
     },
     {
       "id": 2,
       "name": "Parvati Shallow",
-      "image": "https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg",
-      "seasons": [
-        13,
-        16,
-        20,
-        40
-      ]
+      "image": "parvati-shallow"
     },
     {
-      "id": "55e6a74e-aa52-48f4-8cc3-4417886324db",
-      "name": "Kelly Wentworth",
-      "image": "https://www.truedorktimes.com/survivor/cast/images/kelly-wentworth.jpg"
-    },
-    {
-      "id": "c3ed7750-1bba-40fd-824e-aed19b5f29da",
-      "name": "Maryli Cheng",
-      "image": "https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg"
+      "id": "cddf948a-22cf-48b5-a505-14ba7cb6620c",
+      "name": "Spencer Bledsoe",
+      "image": "spencer-bledsoe"
     }
   ]
 }

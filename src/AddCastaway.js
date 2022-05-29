@@ -4,7 +4,7 @@ import Castaway from "./Castaway";
 
 function AddCastaway({castawayAdder}) {
     
-    const [newCastObj, newCastChange] = useState({id: null, name: "First Last", image: "https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg"})
+    const [newCastObj, newCastChange] = useState({id: null, name: "First Last", image: "parvati-shallow"})
     
     function nameHandler(e) {
         const newObj = {...newCastObj, name: e.target.value}
@@ -30,12 +30,13 @@ function AddCastaway({castawayAdder}) {
             .then(resp => resp.json())
             .then(data => {
                 castawayAdder(data)
-                newCastChange({id: null, name: "First Last", image: "https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg"})
+                newCastChange({id: null, name: "First Last", image: "parvati-shallow"})
             })
 
     }
 
     function tryDefault() {
+        const urlAttempt = newCastObj.name
         // manipulate string to have dashes instead of spaces
         // append to https://www.truedorktimes.com/survivor/cast/images/
         // add .jpg
@@ -48,12 +49,12 @@ function AddCastaway({castawayAdder}) {
             <h2>Add Castaway to Database</h2>
             <form onSubmit={submitHandler}>
                 <input type="text" name="name" placeholder="Jeff Probst" value={newCastObj.name} onChange={nameHandler}/>
-                <input type="text" name="image" placeholder="https://www.truedorktimes.com/survivor/cast/images/parvati-shallow.jpg" value={newCastObj.image} onChange={imageHandler}/>
+                <input type="text" name="image" placeholder="parvati-shallow" value={newCastObj.image} onChange={imageHandler}/>
+                <p className="helper">Full URL: https://www.truedorktimes.com/survivor/cast/images/{newCastObj.image}.jpg</p>
                 <button type="submit">Add Castaway</button>
             </form>
-
             <button onClick={tryDefault}>Try Default Image URL</button>
-            
+
             </div>
 
         
