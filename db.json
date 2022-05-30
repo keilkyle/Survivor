@@ -24,6 +24,31 @@
       "id": "8af0d8c7-e188-4937-b60f-1e21fddbc498",
       "name": "Adam Klein",
       "image": "adam-klein"
+    },
+    {
+      "id": "aabdba94-8fd1-48a0-8ad5-d6596cbd37b2",
+      "name": "Swati Goel",
+      "image": "swati-goel"
+    },
+    {
+      "id": "0763bc4d-bdea-4968-b360-5e27cfc1e3ef",
+      "name": "Shan Smith",
+      "image": "shan-smith"
+    },
+    {
+      "id": "e64b15cf-1724-41d6-a2e3-c8a553c62bdc",
+      "name": "Richard Hatch",
+      "image": "richard-hatch"
+    },
+    {
+      "id": "a89b92ed-2b8d-402b-9869-8c25aa710264",
+      "name": "Terry Deitz",
+      "image": "terry-deitz"
+    },
+    {
+      "id": "fe049e7d-3ac5-4f17-959c-988974bf80a8",
+      "name": "Cirie Fields",
+      "image": "cirie-fields"
     }
   ]
 }

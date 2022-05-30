@@ -6,17 +6,23 @@ This is an app for fans of the hit TV show, Survivor. Honestly, there's not much
 1. Add in survivor "castaways" (contestants)
 2. Look at a list of all of the castaways you've added
 
-The app uses React Router to help users navigate between three pages: Home, See All Castaways, Add New Castaway
+The app uses React Router to help users navigate between three pages: Home, See All Castaways, Add New Castaway.
 
-# Home
+# Video Walkthrough
+
+![Survivor Lister](./survivor_lister.gif)
+
+# Pages
+
+## Home
 
 This page doesn't have any user interaction. It welcomes users to the site.
 
-# See All Castaways
+## See All Castaways
 
 This page doesn't have any user interaction. It lists all castaways in the database.
 
-# Add New Castaway
+## Add New Castaway
 
 This page allows users to add castaways to the database. They enter a name of a Survivor castaway, then help complete an image URL. 
 

@@ -35,9 +35,15 @@ code {
   width: 20vw;
   display: inline-block;
   margin: 0 5vw 0 5vw;
-  background-color: blue;
-  color: #fff;
+  background-color: #eee;
+  border: 1px solid #888; 
+  color: #000;
   padding: 3vh 0 0 0;
+}
+
+.nav a:hover {
+  background-color: lightblue;
+  border: 1px solid blue; 
 }
 
 /* Adder */
